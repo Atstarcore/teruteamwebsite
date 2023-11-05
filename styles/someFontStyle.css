@@ -1,0 +1,41 @@
+/* warn text */
+.warn-text{
+  color: rgb(255, 208, 0);
+}
+
+.warn-text .fa-square{
+  color: rgb(255, 208, 0);
+}
+
+/* error text */
+.error-text{
+  color: rgb(255, 0, 0);
+}
+
+.error-text .fa-square{
+  color: rgb(255, 0, 0);
+}
+  
+/* for gdbrower link :nerd: */
+.link-text{
+  transition: .35s;
+}
+
+.link-text:hover{
+  color: aliceblue;
+}
+    
+.link-text::after{
+  color: blue;
+}
+
+/* hide text
+.hide-text{
+  display: none;
+}
+
+@media(max-width: 914.29px){
+  .hide-text{
+    display: block;
+  }
+} */

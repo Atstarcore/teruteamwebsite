@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeruTeam</title>
+    <link rel="stylesheet" href="./styles/someFontStyle.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/teru_team.ico">
+    <script src="./src/script.js" defer></script>
+    <script src="https://unpkg.com/htmx.org@1.9.6" integrity="sha384-FhXw7b6AlE/jyjlZH5iHa/tTe9EpJ1Y55RjcgPbjeWMskSxZt1v9qkxLJWNJaGni" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/57b47bf68e.js" crossorigin="anonymous"></script>
+    <script src="./src/checkBrowser.js"></script>
+    <style>
+      .live-frame{
+        padding: 0;
+      }
+    </style>
+</head> 
+<body>
+  <!-- header -->
+  <div class="navbar">
+   <section class="header">
+        <nav style="user-select: none;">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="project.html">Project</a></li>
+        <li><a href="join.html">Join TeruTeam!</a></li>
+        <li><a href="about.html">About</a></li>
+        </nav>
+      <div class="text-box card-content content">
+        <h1>Welcome to Teru Team Offical Website!</h1>
+        <p>てるチーム公式サイトへようこそ</p>
+        <a href="about.html" class="hero-btn">About us</a>
+      </div>
+    </section>
+  </div>
+    <!-- end header -->
+    <!-- content -->
+    <section class="content">
+      <div class="card-content card-content1">
+        <h1 class="card-header--normal">The collab that create a name of TeruTeam</h1>
+        <h2>Level name: <span class="level-name">Cak (new name: Quantum Quake)</span></h2>
+        <p class="warn-text"><i class="fa-solid fa-square"></i> Warning: Work in progress </p>
+        <video src="https://lenlyinator.github.io/teruteam-beta/assets/zzzz%20zai%20zai%20zai.mp4" controls></video>
+      </div>
+
+      <div class="card-content card-content2">
+        <div class="content-nameLvl">
+          <h1 class="card-header--collab">Ongoing projects at the moment</h1>
+          <h2 class="level-name--collab p-lvlName" id="collabName-1">Quantum Quake</h2>
+          <h2 class="level-name--collab p-lvlName" id="collabName-2">Lonz</h2>
+          <h2 class="level-name--collab p-lvlName" id="collabName-3">Messier 87</h2>
+        </div>
+        <!-- live frame -->
+        <div class="live-frame">
+          <iframe src="https://e.widgetbot.io/channels/1151520553228828833/1151524190831259748" allow="clipboard-write; fullscreen" height="500" width="600"></iframe>
+        </div>
+        <!-- <p class="hide-text error-text"><i class="fa-solid fa-square"></i> Hmm... Same like you view this page on mobile.<a href="project.html">[Click here to view]</a></p> -->
+      </div>
+
+      <!-- card cta -->
+      <div class="card-content card-cta">
+        <section class="cta">
+          <h1>Feel excited?</h1>
+          <a href="./join.html" class="hero-btn">Join TeruTeam</a>
+      </section>
+      </div>
+    </section>
+    <!-- end content -->
+
+      <!-- footer -->
+      <div class="footer" style="position: relative;">
+        <p><i class="fa-regular fa-copyright"></i> TeruTeam 2023</p>
+      </div>
+      <!-- end footer -->
+</body>
+</html>
