@@ -16,7 +16,7 @@ body#aboutPage-body{
 
 body#projectPage-body{
   background: url('../assets/projectBG.svg');
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center;
   background-size: cover;
 }
@@ -141,7 +141,7 @@ div#people{
 
 div#people h1{
   display: block;
-  padding: 0 10px 0 10px;
+  padding:  1%  17px;
   transition: .3s;
 }
 
@@ -208,7 +208,7 @@ p{
 }
 nav {
   position:fixed;
-  top: auto;
+  top: 0;
   width: 100%; 
   list-style-type: none;
   background-color: #333;
@@ -218,7 +218,7 @@ nav {
 }
 
 li {
-  float: left;
+  float:left;
 }
 
 .left_text{
@@ -244,7 +244,7 @@ a {
 }
 
 li a {
-  display: inline-flex;
+  display:flex;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -312,7 +312,7 @@ iframe{
 .footer{
   width: 100%;
   text-align: center;
-  padding: 30px 0;
+  padding: 30px ;
   user-select: none;
 }
 
